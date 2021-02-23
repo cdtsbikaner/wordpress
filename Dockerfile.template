@@ -263,3 +263,4 @@ CMD {{ [ if env.variant == "apache" then "apache2-foreground" else "php-fpm" end
 USER www-data
 CMD ["wp", "shell"]
 {{ ) end -}}
+Welldone 
